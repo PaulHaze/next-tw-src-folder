@@ -2,11 +2,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
-      "@Components": ["components/index"],
-      "@Layouts": ["layouts/index"],
-      "@Features": ["features/index"],
-      "@Sections": ["sections/index"]
+      "@/*": ["src/*"],
+      "@Components": ["src/components/index"],
+      "@Layouts": ["src/layouts/index"],
+      "@Features": ["src/features/index"],
+      "@Sections": ["src/sections/index"]
     }
   },
   "exclude": ["node_modules"]
